@@ -1,0 +1,22 @@
+// Encurtando as classes para o código ficar menor
+
+/*
+class Person1 {
+    readonly id1: number;
+    protected name1: string;
+    private age1: number;
+
+    constructor(id1: number, name1: string, age1:number) {
+        this.id1 = id1;
+        this.name1 = name1;
+        this.age1 = age1;
+    }
+*/
+
+class PersonRefact {
+    constructor(
+        readonly id1: number,
+        protected name1: string,
+        private age1: number
+    ) {}
+}
